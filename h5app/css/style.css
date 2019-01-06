@@ -1,0 +1,28 @@
+
+/*
+样式一
+*/
+
+.flex{
+	position: absolute;
+	top: 6px;
+	right: 9px;
+}
+.fixed{
+	position: fixed;
+	bottom: 30%;
+	right: 10px;
+	background: blue;
+}
+
+.list-fix{
+	display: flex;
+}
+.list-fix p {
+	flex: 1;
+	text-align: right;
+}
+.list-fix p.one {
+	top: 10px;
+	text-align: left;
+}
